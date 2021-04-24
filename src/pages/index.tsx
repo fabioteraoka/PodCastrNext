@@ -60,7 +60,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                 <a>{episode.title}</a>
                 </Link>
                 <p>{episode.members}</p>
-                <span>{episode.publishedAt}</span>
+                <span>{episode.published_at}</span>
                 <span>{episode.durationAsString}</span>
               </div>
               <button type="button" onClick={() => playList(episodeList, index)}>
@@ -104,7 +104,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                     </Link>
                   </td>
                   <td>{episode.members}</td>
-                  <td style={{width:100}}>{episode.publishedAt}</td>
+                  <td style={{width:100}}>{episode.published_at}</td>
                   <td>{episode.durationAsString}</td>
                   <td>
                     <button type="button" onClick={() => playList(episodeList, index + latestEpisodes.length)}>
