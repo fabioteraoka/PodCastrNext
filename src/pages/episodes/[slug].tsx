@@ -55,7 +55,7 @@ export default function Episode({ episode }: EpisodeProps){
             <header>
                 <h1>{episode.title}</h1>
                 <span>{episode.members}</span>
-                <span>{episode.publishedAt}</span>
+                <span>{episode.published_at}</span>
                 <span>{episode.durationAsString}</span>
             </header>
             <div className={styles.description} 
