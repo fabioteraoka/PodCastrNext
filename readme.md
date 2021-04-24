@@ -1,7 +1,3 @@
-<h1 align="center">
-    <img alt="Podcastr" title="Podcastr" src=".github/podcastr.svg" />
-</h1>
-
 <p align="center">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
   
@@ -11,10 +7,6 @@
 </p>
 
 <br>
-
-<p align="center">
-  <img alt="Moveit" src=".github/icon.svg" width="160px">
-</p>
 
 ## 🧪 Technologies
 
@@ -35,10 +27,13 @@ $ git clone https://github.com/fabioteraoka/podcastr.git && cd podcastr
 Follow the steps below
 ```bash
 # Install the dependencies
-$ yarn
+$ npm install
+
+# Start the server
+$ npm run server
 
 # Start the project
-$ yarn dev
+$ npm run dev
 ```
 
 ## 🔖 Layout
