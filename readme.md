@@ -35,10 +35,13 @@ $ git clone https://github.com/fabioteraoka/podcastr.git && cd podcastr
 Follow the steps below
 ```bash
 # Install the dependencies
-$ yarn
+$ npm install
+
+# Start the server
+$ npm run server
 
 # Start the project
-$ yarn dev
+$ npm run dev
 ```
 
 ## 🔖 Layout
