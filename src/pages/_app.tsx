@@ -11,11 +11,15 @@ function MyApp({ Component, pageProps }) {
 return (
   <PlayerContextProvider>
     <div className={styles.wrapper}>
+      <div>
       <main>
         <Header />
         <Component {...pageProps} />
       </main>
+      </div>
+      <div>
       <Player />
+      </div>
     </div>
     </PlayerContextProvider>
   );
