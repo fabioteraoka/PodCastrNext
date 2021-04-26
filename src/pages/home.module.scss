@@ -2,7 +2,7 @@
     padding: 0 4rem;
     height: calc(100vh - 6.5rem);
     overflow-y: scroll;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     
     h2 {
         margin-top: 3rem;
@@ -19,7 +19,7 @@
     ul{
         list-style: none;
         display:grid;
-        // grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 1.5rem;
 
         li{
@@ -176,14 +176,14 @@
         }
     }
 }
-@media (min-width: 720px){
+// @media (min-width: 720px){
 
     
-        .latestEpisodes {
-            ul{
-                grid-template-columns: repeat(2,1fr);
-            }
-        }
-}
+//         .latestEpisodes {
+//             ul{
+//                 grid-template-columns: repeat(2,1fr);
+//             }
+//         }
+// }
 
 
