@@ -51,4 +51,19 @@ Remembering that you need to have a [Figma](http://figma.com/) account to access
 
 ## Aula 1
 ``` bash
+- Instalação dos ambientes
+- Visual Studio Code
+- NodeJs
+- npx create-next-app podcast
+```
+## Aula 2
+```bash
+- Alterar para utilizar Typescript
+- npm typescript @types/react @types/node -D
+- Utilização do sass
+- npm add sass
+- Biblioteca da datas
+- npm add date-fns
+```
 
+extensão tsx = typescript + jsx(xml no javascript)
