@@ -11,13 +11,13 @@ function MyApp({ Component, pageProps }) {
 return (
   <PlayerContextProvider>
     <div className={styles.wrapper}>
-      <div>
+      <div className="main">
       <main>
         <Header />
         <Component {...pageProps} />
       </main>
       </div>
-      <div>
+      <div className="player">
       <Player />
       </div>
     </div>
