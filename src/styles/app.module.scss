@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     // justify-content: center;
-    // align-items: center;
+    align-items: center;
+
     
     main{
         flex: 1;
@@ -14,7 +15,12 @@
 }
 
 @media (min-width: 720px){
+    
     .wrapper{
         flex-wrap: nowrap;
+
+        // main {
+        //     width: 85rem;
+        // }
     }    
 }   
