@@ -14,13 +14,13 @@
     // }
 }
 
-@media (min-width: 720px){
+@media (max-width: 620px){
     
-    // .wrapper{
-    //     flex-wrap: nowrap;
+    .wrapper{
+      flex-direction: column;
 
     //     // main {
     //     //     width: 85rem;
     //     // }
-    // }    
+    }    
 }   

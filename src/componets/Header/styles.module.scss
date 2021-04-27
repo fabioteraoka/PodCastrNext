@@ -17,3 +17,29 @@
         text-transform: capitalize;
     }
 }
+
+@media(max-width: 620px) {
+    .headerContainer {
+        flex-direction: column;
+        justify-content: center;
+
+        height: 10rem;
+        padding: 0;
+
+        p {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            margin-top: 0.8rem;
+        }
+
+        .theme {
+            margin: 0.4rem 0 0;
+        }
+
+        span {
+            margin: 0;
+            margin-top: 0.8rem;
+        }
+    }
+}
