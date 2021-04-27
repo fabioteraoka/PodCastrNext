@@ -26,3 +26,5 @@ return (
 }
 
 export default MyApp;
+
+// novas atualizações
